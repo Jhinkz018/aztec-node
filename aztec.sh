@@ -107,7 +107,7 @@ cat > docker-compose.yml <<EOF
 version: "3.8"
 services:
   node:
-    image: aztecprotocol/aztec:0.85.0-alpha-testnet.5
+    image: aztecprotocol/aztec:0.87.7
     network_mode: host
     environment:
       - ETHEREUM_HOSTS=\${ETHEREUM_HOSTS}
